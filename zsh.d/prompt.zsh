@@ -1,5 +1,3 @@
-autoload -U colors && colors
-
 if [[ "$TERM" != "dumb" ]]; then
     source "$HOME/.zsh.d/zsh-git-prompt/zshrc.sh"
 
